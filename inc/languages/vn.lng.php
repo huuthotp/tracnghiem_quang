@@ -1099,7 +1099,7 @@ $lngstr['page-rtemplates']['qst_rtemplate_delete'] = 'Bạn chắc chắn muốn
 $lngstr['page-rtemplates']['qst_rtemplates_delete'] = 'Bạn chắc chắn muốn sẽ xóa những khung mẫu báo cáo được lựa chọn?';
 
 // Install:
-$lngstr['install_title'] = 'Cài đặt - [System_TrắcNghiệm]-[VTL_Test]';
+$lngstr['install_title'] = 'Cài đặt';
 $lngstr['install_page1'] = 'Bước 1 - Thiết lập ngôn ngữ';
 $lngstr['install_page1_description'] = '<p><b>Ngôn ngữ:</b> Vui lòng chọn 1.';
 $lngstr['install_language'] = 'Ngôn ngữ:';
@@ -1107,14 +1107,14 @@ $lngstr['install_page2'] = 'Buớc 2 - Thiết lập chung';
 $lngstr['install_page2_description'] = '<p><b>Tiêu đề web:</b> Xin chỉ rõ tiêu đề trang web..
 <p><b>Email Mặc định:</b> Điền email mặc đj\ịnh vào ô này, đây là email dùng để gửi mail cho người dùng.
 <p><b>Địa chỉ trang trắc nghiệm (VD:/tracnghiem/)</b> Xin chỉ rõ địa chỉ web ở đâu . Mạng(lưới) được kiểm tra sẽ được truy nhập.
-<p><b>Địa chỉ gốc [_TrắcNghiệm]-[VTL_Test] trên server:</b> Xin chỉ rõ đường dẫn thư mục đầy đủ tới sự cài đặt này.
-<p><b>[_TrắcNghiệm]-[VTL_Test] files URL:</b> Xin chỉ rõ địa chỉ mạng ở đâu được nạp dữ liệu những hồ sơ sẽ được truy nhập.
-<p><b>[_TrắcNghiệm]-[VTL_Test] files directory:</b> Xin chỉ rõ một đường dẫn thư mục đầy đủ ở đâu TânPhú. Mạng(lưới) được kiểm tra có thể cất giữ nạp dữ liệu những hồ sơ. Thư mục này cần phải (thì) đọc được và viết bởi người sử dụng người phục vụ mạng (usually "nobody" or "apache").';
+<p><b>Địa chỉ gốc trên server:</b> Xin chỉ rõ đường dẫn thư mục đầy đủ tới sự cài đặt này.
+<p><b>files URL:</b> Xin chỉ rõ địa chỉ mạng ở đâu được nạp dữ liệu những hồ sơ sẽ được truy nhập.
+<p><b>files directory:</b> Xin chỉ rõ một đường dẫn thư mục đầy đủ ở đâu TânPhú. Mạng(lưới) được kiểm tra có thể cất giữ nạp dữ liệu những hồ sơ. Thư mục này cần phải (thì) đọc được và viết bởi người sử dụng người phục vụ mạng (usually "nobody" or "apache").';
 $lngstr['install_titlepostfix'] = 'Tiêu đề Web:';
 $lngstr['install_defaultemail'] = 'Email mặc định:';
 $lngstr['install_urlroot'] = 'Địa chỉ trang trắc nghiệm (VD:/tracnghiem/):';
-$lngstr['install_dirrootfull'] = 'Địa chỉ gốc trang trắc nghiệm [_TrắcNghiệm]-[VTL_Test] trên server:';
-$lngstr['install_dirrootfull_doesnotexists'] = 'The "[_TrắcNghiệm]-[VTL_Test] directory" setting seems to be incorrect. Giá trị ở dưới đã được đặt lại.<br>';
+$lngstr['install_dirrootfull'] = 'Địa chỉ gốc trang trắc nghiệm trên server:';
+$lngstr['install_dirrootfull_doesnotexists'] = 'The directory setting seems to be incorrect. Giá trị ở dưới đã được đặt lại.<br>';
 $lngstr['install_urlfiles'] = 'Thư mục chứa file tải lên  (VD:/tracnghiem/files/):';
 $lngstr['install_dirfilesfull'] = 'Thư mục chứa file tải lên  trên server:';
 $lngstr['install_page3'] = 'Bước 3 - Thiết lập CSDL';
@@ -1131,8 +1131,8 @@ $lngstr['install_downloadconfig'] = '<p>Vui lòng lưu <b><a href="install.php?d
 $lngstr['install_canwritetoconfig'] = '<p>File config.inc.php đã đựoc cấu hình và tạo thành công.';
 $lngstr['install_page4'] = 'Quá trình cái đặt sắp hoàn tất';
 $lngstr['install_page4_description'] = '<p>Vui lòng bấm "Tiếp" để bắt đầu cài đặt CSDL.';
-$lngstr['install_db_title'] = 'Khởi tạo CSDL - [_TrắcNghiệm]-[VTL_Test]';
-$lngstr['install_db_page1'] = 'Khởi tạo CSDL [_TrắcNghiệm]-[VTL_Test]';
+$lngstr['install_db_title'] = 'Khởi tạo CSDL';
+$lngstr['install_db_page1'] = 'Khởi tạo CSDL';
 $lngstr['install_db_createtablex'] = 'Tạo bảng "%s" :';
 $lngstr['install_db']['create_or_modify_tablex'] = 'Tạo ra hay điều chỉnh  bảng "%s" :';
 $lngstr['install_db']['no_init_needed'] = 'Không có sự khởi tạo cần.';
@@ -1156,7 +1156,7 @@ $m_db_drivers = array(
 
 $lngstr['initdb_etemplates_1_name'] = 'Kế quả Kiểm tra  (Mặc định)';
 $lngstr['initdb_etemplates_1_description'] = 'Khung mẫu Email kết quả kiểm tra(Mặc định)';
-$lngstr['initdb_etemplates_1_subject'] = '[LOPHOCTOAN.NET_TrắcNghiệm]-[VTL_Test] - Báo cáo Mẫu';
+$lngstr['initdb_etemplates_1_subject'] = 'Báo cáo Kết Quả Bài Kiểm Tra';
 $lngstr['initdb_etemplates_1_body'] = 'Chào [USER_FIRST_NAME],
 
 ở đây những kết quả từ bài kiểm (của) các bạn:
@@ -1171,8 +1171,7 @@ Thời gian được vượt hơn: [RESULT_TIME_EXCEEDED]
 Thổng điểm: [RESULT_POINTS_SCORED] / [RESULT_POINTS_POSSIBLE] ([RESULT_PERCENTS]%)
 Xếp loại: [RESULT_GRADE]
 
-Thân chào,chúc bạn học tốt và thành công trong tương lai !
-Admin: Vũ Thanh Lai | Email: VuThanhLai@Gmail.Com | Y!M: KiUcTinhYeu_1811 | Site: http://tanphu.net ';
+Thân chào,chúc bạn học tốt và thành công trong tương lai !';
 
 $lngstr['initdb_etemplates_2_name'] = 'Tài khoản đăng ký';
 $lngstr['initdb_etemplates_2_description'] = 'khung mẫu email Tài khoản đăng ký ';

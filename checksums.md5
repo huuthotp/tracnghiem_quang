@@ -2579,7 +2579,7 @@ cd699807fbfbbda6ddb857958f0859bb *inc/adodb/tohtml.inc.php
 678d96591452812ec32cfffc56877b51 *inc/adodb/xsl/remove-0.3.xsl
 0bfdb66c85e6d250e36424b2a96be5ff *inc/connect.inc.php
 5de012d0d74cfee137ec49e35a81d120 *inc/const.inc.php
-eb1a9b388bd3d17ea865922f796bcd5a *inc/en.lng.php
+eb1a9b388bd3d17ea865922f796bcd5a *inc/vn.lng.php
 d8c494a4ffe558cdf394e6f06451e831 *inc/events.inc.php
 bc62bf6db01e3f8862b38eaf5843b8d0 *inc/fpdf/credits.txt
 fc24409ed4079afe5a49dc21bfc18dc6 *inc/fpdf/font/courier.php
@@ -2604,7 +2604,7 @@ de0627cd374c195504d5a91126a5ee3a *inc/fpdf/no_img.gif
 b26618ea46597e3a97b0e26433aa9df5 *inc/functions.inc.php
 132441dc0f3096006efb796e7810871d *inc/init.inc.php
 243dc5ccfe9a420f79a81d6b0526f415 *inc/languages/de.lng.php
-84c66cccd2a328d2b455007a2ba399ea *inc/languages/en.lng.php
+84c66cccd2a328d2b455007a2ba399ea *inc/languages/vn.lng.php
 8599110cd0309bd567fe0efb0c14e6e6 *inc/languages/es.lng.php
 456430b228f8277ab56a8dfb67117b8f *inc/languages/fr.lng.php
 91b96be7ae548aa1ff4fea7905b76016 *inc/languages/hr.lng.php
