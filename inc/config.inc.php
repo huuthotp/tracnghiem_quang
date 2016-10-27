@@ -10,7 +10,7 @@ $srv_settings['db_password'] = 'Quang@123';
 $srv_settings['table_prefix'] = 'tracnghiem_';
 $srv_settings['url_root'] = '/';
 $srv_settings['dir_root_full'] = '/home/u516137763/public_html/';
-$srv_settings['url_files'] = '/home/u516137763/public_html/files/';
+$srv_settings['url_files'] = '/files/';
 $srv_settings['dir_files_full'] = '/home/u516137763/public_html/files/';
 $srv_settings['version'] = 'da1b3e84b64bad53f9008754d26470db';
 ?>
