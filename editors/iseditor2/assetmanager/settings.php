@@ -1,5 +1,4 @@
 <?php
-
 require_once("../../../inc/const.inc.php");
 require_once("../../../inc/config.inc.php");
 
