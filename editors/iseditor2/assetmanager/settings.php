@@ -6,7 +6,7 @@ require_once("../../../inc/config.inc.php");
 // Start a session:
 session_name(SYSTEM_SESSION_ID);
 session_start();
-session_register('MAIN');
+// session_register('MAIN');
 if(!isset($_SESSION['MAIN']))
  $_SESSION['MAIN'] = array();
 $G_SESSION = &$_SESSION['MAIN'];

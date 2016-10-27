@@ -5,7 +5,6 @@ ini_set('session.gc_maxlifetime', '36000');
 session_set_cookie_params(0);
 session_name(SYSTEM_SESSION_ID);
 session_start();
-session_register('MAIN');
 if(!isset($_SESSION['MAIN']))
  $_SESSION['MAIN'] = array();
 $G_SESSION = &$_SESSION['MAIN'];
