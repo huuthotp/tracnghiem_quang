@@ -357,7 +357,7 @@
 							"min-height" : 0,
 							border : 0,
 							padding : 0,
-							margin : 10px
+							margin : 10
 						},
 						".MathJax:focus, body :focus .MathJax" : {
 							display : "inline-table"
