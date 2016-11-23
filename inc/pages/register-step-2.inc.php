@@ -1,5 +1,4 @@
 <?php
- 
-gotoLocation('index.php'); 
-  
+
+gotoLocation('index.php?action=createFinish');
 ?>

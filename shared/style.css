@@ -109,3 +109,10 @@ img.calendar-icon-hover {border:1px solid #AEB6C2; background-color:#DBE3F2; mar
 a.context-button {display:block; box-sizing:border-box; -moz-box-sizing:border-box; font-size:70%; white-space:nowrap; height:22px; padding:2px; padding-top:3px; border:0px; margin:1px 1px 1px 3px;}
 a.context-button:hover {height:24px; margin:0px 0px 0px 2px; border:1px solid #8fa1c4;}
 a.icon {padding-left:24px; background-repeat:no-repeat; background-position:left top;}
+
+.create-finish {
+    font-size: 15px;
+    color: royalblue;
+    background-color: springgreen;
+    display: inline-block;
+}

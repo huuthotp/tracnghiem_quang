@@ -20,8 +20,9 @@
 <td height="100%" class=signin2>
 
 <{include file="_notifications.tpl.html"}>
-
-<{$lngstr.page_signin_box_intro}>
+<{if $action=="createFinish"}>
+<p class="create-finish">BẠN ĐÃ ĐĂNG KÝ THÀNH CÔNG - HÃY ĐỢI ADMIN KÍCH HOẠT </p>
+<{/if}>
 <{if $g_vars.page.can_register}><p><{$lngstr.page_signin_box_register_intro}></p><{/if}>
 <p><{$lngstr.page_signin_box_lostpassword_intro}></p>
 </td></tr></table>
