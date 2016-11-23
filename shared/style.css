@@ -113,6 +113,6 @@ a.icon {padding-left:24px; background-repeat:no-repeat; background-position:left
 .create-finish {
     font-size: 15px;
     color: royalblue;
-    background-color: springgreen;
     display: inline-block;
+    margin: 0 0 0 0;
 }
